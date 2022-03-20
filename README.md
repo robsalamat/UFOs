@@ -13,6 +13,14 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 ![](Static/images/webpage.PNG)
 
+The **dynamic table on the right** will change and only show **relevant data** according to inputs typed on the **filter 
+parameters on the left.** 
+
+We can filter data using only one  or more of the parameters (Date, City, State, Country, Shape). Shown below is an example of sightings filtered using Ontario (state) and Canada (Country).
+
+![](Static/images/search_result.PNG)
+
+
 ## III. Summary
 
 The summary addresses one drawback of this webpage (2 pt)
