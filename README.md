@@ -16,13 +16,26 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 The **dynamic table on the right** will change and only show **relevant data** according to inputs typed on the **filter 
 parameters on the left.** 
 
-We can filter data using only one  or more of the parameters (Date, City, State, Country, Shape). Shown below is an example of sightings filtered using Ontario (state) and Canada (Country).
+We can filter data using only one  or up to all of the parameters (Date, City, State, Country, Shape). Shown below is an example of sightings filtered using Ontario (state) and Canada (Country):
 
 ![](Static/images/search_result.PNG)
 
 
 ## III. Summary
 
-The summary addresses one drawback of this webpage (2 pt)
+While the webpage is functioning well, there are still some points for improvement.
 
-The summary addresses two additional recommendations for further development (4 pt)
+### A. Limitations 
+
+- The data is constrained to the avaialable data set.
+
+- The inputs are case sensitive, so any wrong capitalization will not give the desired data.
+
+- We cannot see the availabilities of the inputs for filtering. There will be states, cities, etc. with no sighting records but we will just know it once we type it in. 
+
+
+### B. Recommendations
+
+- There should be a webscraping function that updates the data. 
+
+- The filters can have dropdown options to avoid case sensitivity mistakes and unavailable data.
